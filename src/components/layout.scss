@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -44,11 +44,177 @@ table {
 
 
 html,  body{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
+// Variables
+$black: #181818;
+$white: #ffffff;
+$grey: #F1EDE9;
+$blue: #A2FBF4;
 // Basic layout
 .container{
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 0 auto;
+}
+
+.hero_section{
+
+}
+
+.hero_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  max-height: 80vh;
+  .text_detail{
+    max-width: 600px;
+    margin-top: 60px;
+    z-index: 999;
+    h1{
+      font-size: 48px;
+      font-weight:600;
+      line-height: 120%;
+      margin-bottom: 25px;
+      small{
+        margin-bottom: 15px;
+        font-size: 40px;
+        display: block;
+        font-weight: 300;
+      }
+    }
+    p{
+      font-size: 21px;
+      line-height: 150%;
+      max-width: 500px;
+      margin-bottom: 30px;
+    }
+  }
+  .hero_media{
+    position: absolute;
+    top: 10px;
+    right: -100px;
+    z-index: 900;
+    img{
+      max-width: 650px;
+    }
+  }
+}
+.links{
+  >li{
+    display: inline-block;
+  }
+}
+
+.pad-r24{
+  padding-right: 24px!important;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 60px 0;
+    .brand{
+      display: block;
+      .logo{
+        height: 50px;
+      }
+    }
+    .buttons{
+    }
+}
+
+.buttons{
+  .btn{
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 13px 36px;
+    display: inline-block;
+    transition: all ease 0.2s;
+    border-radius: 8px;
+    &.btn-color{
+      border: 1px solid $black;
+      background: $black;
+      color: $white;
+      &:hover{
+        background: rgba(0,0,0,1);
+      }
+    }
+    &.btn-outline{
+      border: 2px solid $black;
+      color: $black;
+      &:hover{
+        background: rgba(0,0,0,.03);
+      }
+    }
+  }
+}
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .dev-credit{
+    position: absolute;
+    bottom: 0;
+    vertical-align: middle;
+    h3{
+      color: $black;
+      font-weight: 400;
+      font-size: 18px;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 24px;
+    }
+    a{
+      font-weight: 600;
+      text-decoration: none;
+      color: $black;
+      vertical-align: middle;
+      &:hover{
+        text-decoration: underline;
+        color: #000000;
+      }
+    }
+    .scl-lnk{
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      margin-left: 30px;
+      >li{
+        display: inline-block;
+        margin-right: 20px;
+        a{
+          display: block;
+          img{
+            display: block;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+  .company{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    h3{
+      font-size: 18px;
+      color: rgba(0,0,0,0.5);
+      font-weight: 400;
+    }
+    a{
+      font-weight: 600;
+      text-decoration: none;
+      color: rgba(0,0,0,0.5);
+    }
+  }
 }

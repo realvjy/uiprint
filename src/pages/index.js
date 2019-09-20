@@ -19,49 +19,30 @@ class BlogIndex extends React.Component {
             <div className="hero_wrapper">
               <div className="text_detail">
                 <h1>
-                  Get printable grids, wireframes & sketchpads.
+                  <small>Get printable</small>
+                  wireframes, mockup and sketchpads
                 </h1>
                 <p>
                   If you love to draw your idea on paper and want some good sketchpad templates to speed up your creative process. Grab UIPRINTS.
                 </p>
                 <div className="buttons">
                   <ul className="links">
-                    <li className="btn btn-color">
-                      <Link to={`/`}>Download all</Link>
+                    <li className="pad-r24">
+                      <a href="https://github.com/realvjy/uiprint/releases/download/v1.0/uiprint-iphone-2up-extended@A4.pdf.zip" className="btn btn-color">Download all</a>
                     </li>
-                    <li className="btn btn-outline">
-                      <Link to={`/`}>Explore all</Link>
+                    <li>
+                      <a href="https://github.com/realvjy/uiprint" className="btn btn-outline"> WIP 😀</a>
                     </li>
                   </ul>
                 </div>
               </div>
+              <div className="hero_media">
+                <img src="/uiprint-illustration.png" />
+              </div>
             </div>
           </div>
         </section>
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <article key={node.fields.slug}>
-            <div>
-                <header>
-                  <h3>
-                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                      {title}
-                    </Link>
-                  </h3>
-                  <small>{node.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: node.frontmatter.description || node.excerpt,
-                    }}
-                  />
-                </section>
-              </div>
-            </article>
-          )
-        })}
+
       </Layout>
     )
   }
