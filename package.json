@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "uiprint",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Printable mockups and sketchbook templates",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "vijay verma<hello@vijayverma.co>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/realvjy/uiprint/issues"
   },
   "dependencies": {
     "gatsby": "^2.15.15",
@@ -38,15 +38,15 @@
     "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://uiprint.co",
   "keywords": [
-    "gatsby"
+    "printable mocks"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/realvjy/uiprint.git"
   },
   "scripts": {
     "build": "gatsby build",

@@ -18,25 +18,25 @@ const Testimonial = () => {
         <div className="testi">
           <div className="t-w">
             <div className="user-info">
-              <img src="/vjy.png"/>
+              <img src="/misaac.png"/>
               <div className="txt">
-                <h3>Danial Verma</h3>
-                <h5>Founder @uigate</h5>
+                <h3><a href="https://www.instagram.com/misaac85/" target="__blank">Miriam Isaac</a></h3>
+                <h5>UX Designer</h5>
               </div>
             </div>
-            <p>Demo Text So smooth and simple you would like to lick it!</p>
+            <p>These templates will be an invaluable resource to any UX project. Giving you the ability to quickly wireframe your ideas and produce rapid prototypes.</p>
           </div>
         </div>
         <div className="testi">
           <div className="t-w">
             <div className="user-info">
-              <img src="/vjy.png"/>
+              <img src="/darshan.png"/>
               <div className="txt">
-                <h3>Danial Verma</h3>
-                <h5>Founder @uigate</h5>
+                <h3><a href="https://twitter.com/WeirdoWizard" target="__blank">Darshan Gajara</a></h3>
+                <h5>Founder <strong>@ProductDisrupt</strong></h5>
               </div>
             </div>
-            <p>Demo Text So smooth and simple you would like to lick it!</p>
+            <p>These mockups are really helpful to quickly sketch out an idea or a wireframe and get feedback from the stakeholders. Having our sketches drawn out on in a device helps to put things in perspective.</p>
           </div>
         </div>
       </div>

@@ -31,13 +31,13 @@ class Layout extends React.Component {
           <div className="dev-credit">
           <h3>Design and dev. <a href="https://vijayverma.co">vijay verma.</a> </h3>
           <ul className="scl-lnk">
-            <li><a href="https://dribbble.com/realvjy" target="__blank"><img src="dribbble.svg"/></a></li>
-            <li><a href="https://twitter.com/realvjy" target="__blank"><img src="twitter.svg"/></a></li>
-            <li><a href="https://instagram.com/realvjy" target="__blank"><img src="insta.svg"/></a></li>
+            <li><a href="https://dribbble.com/realvjy" target="__blank"><img src="/dribbble.svg"/></a></li>
+            <li><a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a></li>
+            <li><a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a></li>
           </ul>
           </div>
           <div className="company">
-           <h3>Project by <a href="https://vijayverma.co">uigate</a></h3>
+           <h3>Project by <a href="https://dribbble.com/uigate">uigate</a></h3>
           </div>
         </footer>
       </div>
