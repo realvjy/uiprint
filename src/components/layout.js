@@ -15,10 +15,10 @@ class Layout extends React.Component {
         </Link>
         <ul className="buttons links">
           <li className="pad-r24">
-            <a href="https://github.com/realvjy/uiprint/releases/download/v1.0/uiprint-iphone-2up-extended@A4.pdf.zip" className="btn btn-color">Download all</a>
+            <a href="https://github.com/realvjy/uiprint/releases/download/v1.0/final-realease-v1-pdf.zip" className="btn btn-color">Download all</a>
           </li>
           <li>
-            <Link to={`/`} className="btn btn-outline">Explore all</Link>
+            <Link to={`/all-printable`} className="btn btn-outline">Explore all</Link>
           </li>
         </ul>
       </nav>
@@ -26,7 +26,7 @@ class Layout extends React.Component {
     return (
       <div className="uiprint_main">
         <header>{header}</header>
-        <main className="container">{children}</main>d
+        <main className="up_i">{children}</main>
         <footer className="container footer">
           <div className="dev-credit">
           <h3>Design and dev. <a href="https://vijayverma.co">vijay verma.</a> </h3>

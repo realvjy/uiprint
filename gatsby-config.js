@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/mockups`,
+        name: `mockups`,
       },
     },
     {
@@ -25,6 +25,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-transformer-remark`,
+      "excerpt_separator": `<!-- endexcerpt -->`,
       options: {
         plugins: [
           {
@@ -50,7 +51,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-148469217-1`,
       },
     },
     {
@@ -61,7 +62,7 @@ module.exports = {
         }
       }
     },
-    
+
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -72,7 +73,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/uiprint-icon.png`,
       },
     },
     `gatsby-plugin-offline`,

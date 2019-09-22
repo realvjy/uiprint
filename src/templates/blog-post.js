@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import Bio from "../components/featured"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -30,6 +30,9 @@ class BlogPostTemplate extends React.Component {
             >
               {post.frontmatter.date}
             </p>
+            <p>{post.frontmatter.author}
+            {post.frontmatter.category}</p>
+            <img src={post.frontmatter.image.childImageSharp.fluid.src} />
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
@@ -86,8 +89,19 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
+        author
+        category
+        tags
+        featured
         description
+        image{
+          childImageSharp {
+            fluid {
+              src
+            }
+          }
+        }
       }
     }
   }
