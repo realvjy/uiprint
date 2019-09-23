@@ -1,7 +1,7 @@
 ---
 title: Single Mobile
 date: 2019-09-19
-description: "It helps to add more description and details about your single screen.(iphone X+)"
+description: "It helps to add more description and details about your single screen.(iphone X)"
 author: "vijay verma"
 featured: false
 letter: ./uiprint-iphone-1up@Letter.pdf
