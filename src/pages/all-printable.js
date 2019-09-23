@@ -31,11 +31,14 @@ class AllPrintable extends React.Component {
                         {title}
                         </h2>
                         <p>{node.frontmatter.description}</p>
-                        <div className="dwn-links">
-                          <button className="download_button">
-                            Download
-                          </button>
-                          <ul dangerouslySetInnerHTML={{ __html: node.excerpt }} className="dwn-list"/>
+                        <div className="link-wrapper">
+                          <div className="dwn-links">
+                            <button className="download_button">
+                              Download <span className="d-arrow"><img src="/d-arrow.svg"/></span>
+                            </button>
+                            <ul dangerouslySetInnerHTML={{ __html: node.excerpt }} className="dwn-list"/>
+                          </div>
+                          <span>For A4 and Letter Size</span>
                         </div>
                       </div>
                     </div>
@@ -50,7 +53,7 @@ class AllPrintable extends React.Component {
         <section className="download-all">
         <div className="explore-all">
           <h2>Download all 10+ printable wireframes and sketchpads</h2>
-          <a href="https://github.com/realvjy/uiprint/releases/download/v1.0/final-realease-v1-pdf.zip" className="btn btn-color">Download all</a>
+          <a href="https://github.com/realvjy/uiprint/releases/download/v1.0.1/uiprint-co-v1.0.1.zip" className="btn btn-color">Download all</a>
         </div>
         </section>
       </Layout>

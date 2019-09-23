@@ -39,6 +39,18 @@ const Testimonial = () => {
             <p>These mockups are really helpful to quickly sketch out an idea or a wireframe and get feedback from the stakeholders. Having our sketches drawn out on in a device helps to put things in perspective.</p>
           </div>
         </div>
+        <div className="testi">
+          <div className="t-w">
+            <div className="user-info">
+              <img src="/vikas.png"/>
+              <div className="txt">
+                <h3><a href="https://twitter.com/Vraj247" target="__blank">Vikas Raj Yadav</a></h3>
+                <h5>UX Designer <strong>@Paytm</strong></h5>
+              </div>
+            </div>
+            <p>If a picture is worth 1000 words, a prototype is worth 1000 meetings. So what would be the worth of a predefined wireframe kit which has printed dotes and phones on. Also, you can print on any paper, are you kidding me? Hell yeah, let's bring it. Hey you young guns out there, You'll be going to start loving the first process of UX i.e paper wireframes.</p>
+          </div>
+        </div>
       </div>
     </div>
   )

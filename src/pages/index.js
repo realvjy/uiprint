@@ -29,13 +29,14 @@ class Index extends React.Component {
                 <div className="buttons">
                   <ul className="links">
                     <li className="pad-r24">
-                      <a href="https://github.com/realvjy/uiprint/releases/download/v1.0/final-realease-v1-pdf.zip" className="btn btn-color">Download all</a>
+                      <a href="https://github.com/realvjy/uiprint/releases/download/v1.0.1/uiprint-co-v1.0.1.zip" className="btn btn-color">Download all</a>
                     </li>
                     <li>
-                      <a href="https://github.com/realvjy/uiprint" className="btn btn-outline"> WIP 😀</a>
+                      <Link to={`/all-printable`} className="btn btn-outline">Explore all</Link>
                     </li>
                   </ul>
                 </div>
+                <div className="opensource">Free for both <a href="https://creativecommons.org/licenses/by/4.0/" target="__black">personal and commercial</a> use  •  v1.0.1  •  <a href="https://github.com/realvjy/uiprint" target="__blank">Github</a></div>
               </div>
               <div className="hero_media">
                 <img src="/uiprint-illustration.png" />

@@ -2,7 +2,7 @@
   "name": "uiprint",
   "private": true,
   "description": "Printable mockups and sketchbook templates",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "author": "vijay verma<hello@vijayverma.co>",
   "bugs": {
     "url": "https://github.com/realvjy/uiprint/issues"
@@ -42,7 +42,7 @@
   "keywords": [
     "printable mocks"
   ],
-  "license": "MIT",
+  "license": "CC",
   "main": "n/a",
   "repository": {
     "type": "git",

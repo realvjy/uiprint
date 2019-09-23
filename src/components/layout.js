@@ -15,7 +15,7 @@ class Layout extends React.Component {
         </Link>
         <ul className="buttons links">
           <li className="pad-r24">
-            <a href="https://github.com/realvjy/uiprint/releases/download/v1.0/final-realease-v1-pdf.zip" className="btn btn-color">Download all</a>
+            <a href="https://github.com/realvjy/uiprint/releases/download/v1.0.1/uiprint-co-v1.0.1.zip" className="btn btn-color">Download all</a>
           </li>
           <li>
             <Link to={`/all-printable`} className="btn btn-outline">Explore all</Link>

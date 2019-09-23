@@ -67,11 +67,14 @@ const Featured = () => {
             {title}
             </h2>
             <p>{node.frontmatter.description}</p>
-            <div className="dwn-links">
-              <button className="download_button">
-                Download
-              </button>
-              <ul dangerouslySetInnerHTML={{ __html: node.excerpt }} className="dwn-list"/>
+            <div className="link-wrapper">
+              <div className="dwn-links">
+                <button className="download_button">
+                  Download  <span className="d-arrow"><img src="/d-arrow.svg"/></span>
+                </button>
+                <ul dangerouslySetInnerHTML={{ __html: node.excerpt }} className="dwn-list"/>
+              </div>
+              <span>For A4 and Letter Size</span>
             </div>
           </div>
         </div>
