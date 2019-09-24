@@ -70,12 +70,11 @@ $widescreen: 71.25rem; // 1140px
 }
 
 .hero_section{
-
+  padding-bottom: 100px;
 }
 
 .featured_section{
   background-color: $grey;
-  margin-top: 100px;
 }
 .testimonial_section{
   background-color: $blue;
@@ -207,7 +206,6 @@ $widescreen: 71.25rem; // 1140px
 }
 
 .featured-wrapper{
-  margin-top: 150px;
   h1{
     text-align: center;
     font-size: 44px;
@@ -236,6 +234,9 @@ $widescreen: 71.25rem; // 1140px
           -webkit-box-shadow: 0 12px 54px -2px rgba(0,0,0,0.1);
           -moz-box-shadow: 0 12px 54px -2px rgba(0,0,0,0.1);
           box-shadow: 0 12px 54px -2px rgba(0,0,0,0.1);
+          @media (max-width: $mobile-landscape){
+            border-radius: 20px;
+          }
         }
       }
     }
@@ -274,11 +275,21 @@ $widescreen: 71.25rem; // 1140px
   display: flex;
   flex-direction: row;
   align-items: center;
+
   span{
     margin-left: 10px;
     font-size: 14px;
     font-weight: 500;
     color: rgba(0,0,0,0.4);
+
+  }
+  @media (max-width: $mobile-landscape){
+    flex-direction: column;
+    align-items: center;
+    span{
+      margin: 0;
+      margin-top: 18px;
+    }
   }
 }
 
@@ -287,6 +298,7 @@ $widescreen: 71.25rem; // 1140px
   display: inline-block;
   vertical-align: top;
   z-index: 8;
+
   .download_button{
     font-size: 18px;
     text-decoration: none;
@@ -387,13 +399,23 @@ $widescreen: 71.25rem; // 1140px
     text-align: center;
 
   }
+  @media (max-width: $tablet-wide){
+    text-align: center;
+  }
+  @media (max-width: $desktop){
+    overflow: hidden;
+  }
   .text_detail{
     max-width: 600px;
     margin-top: 60px;
     z-index: 999;
+    @media (max-width: $tablet-wide){
+      max-width: 100%!important;
+    }
     @media (max-width: $mobile-landscape){
       margin-top: 10px;
     }
+
     h1{
       font-size: 48px;
       font-weight:600;
@@ -421,7 +443,8 @@ $widescreen: 71.25rem; // 1140px
     img{
       max-width: 600px;
     }
-    @media (max-width: $tablet-wide){
+
+    @media (max-width: 850px){
       img{
         visibility: hidden;
         height: 0;
@@ -433,6 +456,26 @@ $widescreen: 71.25rem; // 1140px
   >li{
     display: inline-block;
 
+  }
+  .btn-tw {
+    margin-right: 20px;
+    @media (max-width: $tablet-wide){
+        display: none;
+    }
+    a{
+      color: $black;
+      text-decoration: none;
+      vertical-align: middle;
+      padding: 16px;
+      line-height: 24px;
+      border-radius: 8px;
+      &:hover{
+        background: rgba(0,0,0,0.03);
+      }
+      img{
+        vertical-align: middle;
+      }
+    }
   }
   @media (max-width: $mobile-landscape){
     flex-direction: column;
@@ -460,6 +503,8 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
     padding: 60px 0;
     @media (max-width: $tablet-wide){
       text-align: center;
@@ -472,6 +517,9 @@ nav{
     .brand{
       display: block;
       padding-left: 20px;
+      @media (max-width: $tablet-wide){
+          padding-left: 0;
+      }
       .logo{
         height: 50px;
       }
@@ -480,6 +528,7 @@ nav{
       padding-right: 20px;
       @media (max-width: $tablet-wide){
         margin-top: 20px;
+        padding-right: 0;
       }
     }
 }
@@ -621,6 +670,9 @@ nav{
               -webkit-box-shadow: 0 12px 54px -2px rgba(0,0,0,0.1);
               -moz-box-shadow: 0 12px 54px -2px rgba(0,0,0,0.1);
               box-shadow: 0 12px 54px -2px rgba(0,0,0,0.1);
+              @media (max-width: $mobile-landscape){
+                border-radius: 20px;
+              }
             }
           }
         }
@@ -669,6 +721,36 @@ nav{
     color: $black;
     &:hover{
       text-decoration: underline;
+    }
+  }
+}
+
+.announce-wrapper{
+  &.ph{
+    background: #da552f;
+  }
+  .an-details{
+    text-align: center;
+    padding: 10px 20px;
+    p{
+      color: $white;
+      font-size: 22px;
+      line-height: 150%;
+      a{
+        color: $white;
+        text-decoration: none;
+        strong{
+          font-weight: 600;
+        }
+      }
+      img{
+        height: 58px;
+        vertical-align: middle;
+        @media (max-width: $mobile-landscape){
+            display: block;
+            margin: 0 auto;
+        }
+      }
     }
   }
 }

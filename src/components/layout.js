@@ -9,11 +9,16 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header = (
+      <>
+      
       <nav className="container">
         <Link to={`/`} className="brand">
           <img src="/logo.svg" className="logo" />
         </Link>
         <ul className="buttons links">
+          <li className="btn-tw">
+            <a href="https://twitter.com/intent/tweet?url=uiprint.co&text=If%20you%20love%20to%20draw%20your%20idea%20on%20paper%20and%20want%20some%20good%20sketchpad%20templates%20to%20speed%20up%20your%20design%20process.%20get%20https%3A%2F%2Fuiprint.co%20by%20%40realvjy">Share on twitter <img src="/twitter.svg"/></a>
+          </li>
           <li className="pad-r24">
             <a href="https://github.com/realvjy/uiprint/releases/download/v1.0.1/uiprint-co-v1.0.1.zip" className="btn btn-color">Download all</a>
           </li>
@@ -22,6 +27,7 @@ class Layout extends React.Component {
           </li>
         </ul>
       </nav>
+      </>
     )
     return (
       <div className="uiprint_main">

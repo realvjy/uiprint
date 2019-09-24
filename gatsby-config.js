@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `UIPRINT`,
     author: `vijay verma.`,
-    description: `Printable Sketchbook, wireframe and dot grids`,
+    description: `Get Printable Sketchbook, wireframe and dot grids templates`,
     siteUrl: `https://uiprint.co/`,
     social: {
       twitter: `realvjy`,

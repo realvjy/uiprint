@@ -24,7 +24,7 @@ class Index extends React.Component {
                   wireframes, mockup and sketchpads
                 </h1>
                 <p>
-                  If you love to draw your idea on paper and want some good sketchpad templates to speed up your creative process. Grab UIPRINTS.
+                  If you love to draw your idea on paper and want some good sketchpad templates to speed up your design process. Grab UIPRINTS.
                 </p>
                 <div className="buttons">
                   <ul className="links">
