@@ -46,7 +46,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `/preview.png`,
+          content: `https://uiprint.co/preview.png`,
         },
         {
           property: `og:title`,
@@ -86,7 +86,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: `/preview.png`,
+          content: `https://uiprint.co/preview.png`,
         },
       ].concat(meta)}
     />
