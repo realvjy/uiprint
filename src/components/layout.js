@@ -10,7 +10,13 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     let header = (
       <>
-      
+      <div className="announce-wrapper ph">
+        <div className="container">
+          <div className="an-details">
+            <p><img src="/ph-logo.png"/>Now Live on <a href="https://www.producthunt.com/posts/uiprint?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-uiprint" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=169400&theme=light" alt="uiprint - Printable templates of mockup, wireframes and sketchpads | Product Hunt Embed" /></a> upvote and Show some love.</p>
+          </div>
+        </div>
+      </div>
       <nav className="container">
         <Link to={`/`} className="brand">
           <img src="/logo.svg" className="logo" />
