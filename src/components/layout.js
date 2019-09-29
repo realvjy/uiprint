@@ -13,7 +13,7 @@ class Layout extends React.Component {
       <div className="announce-wrapper ph">
         <div className="container">
           <div className="an-details">
-            <p><img src="/ph-logo.png"/>Now Live on <a href="https://www.producthunt.com/posts/uiprint?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-uiprint" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=169400&theme=light" alt="uiprint - Printable templates of mockup, wireframes and sketchpads | Product Hunt Embed" /></a> upvote and Show some love.</p>
+            <p><img src="/ph-logo.png"/>Featured on Product hunt <a href="https://www.producthunt.com/posts/uiprint?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-uiprint" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=169400&theme=dark&period=daily" alt="uiprint - Printable templates of mockup, wireframes and sketchpads | Product Hunt Embed" /></a></p>
           </div>
         </div>
       </div>

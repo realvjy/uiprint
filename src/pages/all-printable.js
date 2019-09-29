@@ -12,7 +12,7 @@ class AllPrintable extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="UIPrint > All Mockups " />
+        <SEO title="uiprint | All Mockups" />
         <section className="all-wrapper">
           <div className="mock-section container">
             {posts.map(({ node }) => {
