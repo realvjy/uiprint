@@ -587,8 +587,14 @@ nav{
       display: inline-block;
       vertical-align: middle;
       line-height: 24px;
+      margin-right: 10px;
       @media (max-width: $mobile-landscape){
           width: 100%;
+      }
+      &.coffee{
+        a{
+          color: #3C44E9;
+        }
       }
     }
     a{
@@ -605,7 +611,7 @@ nav{
       display: inline-block;
       margin: 0;
       padding: 0;
-      margin-left: 30px;
+      margin-left: 20px;
       @media (max-width: $mobile-landscape){
           width: 100%;
           margin-top: 20px;
@@ -633,6 +639,7 @@ nav{
       font-size: 18px;
       color: rgba(0,0,0,0.5);
       font-weight: 400;
+      display: inline-block;
     }
     a{
       font-weight: 600;

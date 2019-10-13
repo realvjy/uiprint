@@ -66,6 +66,18 @@ const Testimonial = () => {
         <div className="testi">
           <div className="t-w">
             <div className="user-info">
+              <img src="/afnisign.jpg"/>
+              <div className="txt">
+                <h3><a href="https://www.instagram.com/anfisign" target="__blank">Anfisa Bogomolova</a></h3>
+                <h5>UI/UX Designer</h5>
+              </div>
+            </div>
+            <p>Wireframing = visual brainstorming. If you skip this step, you’re just taking orders from your client and there is a big risk that it will be quite confusing for the user. So if you’re planning to launch successful product, you need to get those sketchpads. Highly recommended 💪</p>
+          </div>
+        </div>
+        <div className="testi">
+          <div className="t-w">
+            <div className="user-info">
               <img src="/vikas.png"/>
               <div className="txt">
                 <h3><a href="https://twitter.com/Vraj247" target="__blank">Vikas Raj Yadav</a></h3>

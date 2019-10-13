@@ -41,7 +41,8 @@ class Layout extends React.Component {
         <main className="up_i">{children}</main>
         <footer className="container footer">
           <div className="dev-credit">
-          <h3>Design and dev. <a href="https://vijayverma.co">vijay verma.</a> </h3>
+          <h3>Maker <a href="https://vijayverma.co">vijay verma</a> </h3>
+          <h3 className="coffee"><a href="https://www.buymeacoffee.com/EOKTJR8">Buy me a coffee</a></h3>
           <ul className="scl-lnk">
             <li><a href="https://dribbble.com/realvjy" target="__blank"><img src="/dribbble.svg"/></a></li>
             <li><a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a></li>
