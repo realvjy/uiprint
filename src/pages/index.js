@@ -14,7 +14,7 @@ class Index extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="uirpint - Get Printable Mockups and Sketchpads" />
+        <SEO title="uiprint - Get Printable Mockups and Sketchpads" />
         <section className="hero_section">
           <div className="container">
             <div className="hero_wrapper">
