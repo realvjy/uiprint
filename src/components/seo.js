@@ -42,7 +42,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `keywords`,
-          content: `uiprint, mockups, wireframe, print, sketchpad, dotgrid, printable, realvjy`,
+          content: `uiprint, mockups, wireframe, print, sketchpad, dotgrid, printable, realvjy, Sketch Sheets, Wireframe Sheets, Wireframing, UX Design, UI/UX Design wireframe sheet, Wireframing Kit, Free sketchpads, User Experience, Printable wireframe`,
         },
         {
           property: `og:image`,
