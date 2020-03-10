@@ -39,6 +39,9 @@ class Layout extends React.Component {
       <div className="uiprint_main">
         <header>{header}</header>
         <main className="up_i">{children}</main>
+        <div className="carbon-ads">
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7DKKJE&placement=uiprintco" id="_carbonads_js"></script>
+        </div>
         <footer className="container footer">
           <div className="dev-credit">
           <h3>Maker <a href="https://vijayverma.co">vijay verma</a> </h3>
