@@ -778,6 +778,9 @@ nav{
   position: fixed;
   bottom: 10px;
   left: 0;
+  @media (max-width: $mobile-landscape){
+      display: none;
+  }
   #carbonads {
   display: flex;
   float: right;
